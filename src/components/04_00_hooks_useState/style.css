@@ -1,0 +1,30 @@
+body {
+    padding: 70px;
+}
+
+h1 {
+    color: #000000;
+}
+
+.form-group {
+    display: flex;
+}
+
+.form-control {
+    width: 50%;
+}
+
+
+/* Correo */
+
+.dddd {
+    display: flex;
+}
+
+
+
+
+
+
+
+

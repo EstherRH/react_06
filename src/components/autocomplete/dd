@@ -1,0 +1,220 @@
+import React, {
+  FC,
+  FormEvent,
+  forwardRef,
+  memo,
+  Ref,
+  useRef,
+  useState,
+} from "react";
+import Autosuggest from "react-autosuggest";
+import { styled } from "../../../styles/stitches.config";
+import type { FormFieldProps } from "../FormField/FormField";
+import { FormField } from "../FormField/FormField";
+
+export interface InputProps extends FormFieldProps {
+  type?: string;
+  value?: string;
+  name?: string;
+  appendText?: string;
+  appendTextLine?: boolean;
+  placeholder?: string;
+  maxLength?: number;
+  required?: boolean;
+  ref?: Ref<HTMLInputElement>;
+  onChange?: (e: FormEvent<HTMLElement>) => void;
+  onClick?: (e: React.MouseEvent<HTMLInputElement>) => void;
+}
+
+const StyledInput = styled("div", {
+  position: "relative",
+  width: "100%",
+  baseInput: true,
+  gap: "$12",
+});
+
+const StyledInputAutosuggest = styled("input", {
+  flex: 1,
+  inputReset: true,
+});
+
+const StyledPrefixText = styled("span", {
+  notSelectable: true,
+  display: "flex",
+  alignItems: "center",
+  justifyContent: "center",
+  borderRight: "1px solid $neutral400",
+  alignSelf: "center",
+  height: "$40",
+  fontSize: "$9",
+  paddingRight: "$12",
+  color: "$neutral700",
+  variants: {},
+});
+
+const data = [
+  { personaje: "Spider Man" },
+  { personaje: "Iron Man" },
+  { personaje: "Viuda negra" },
+  { personaje: "Capitana marvel" },
+  { personaje: "She Hulk" },
+  { personaje: "Wonder Woman" },
+  { personaje: "Capitan América" },
+  { personaje: "Wanda" },
+  { personaje: "Bruja Escarlata" },
+  { personaje: "Thanos" },
+  { personaje: "Pantera negra" },
+  { personaje: "Thor" },
+  { personaje: "Doctor Strange" },
+];
+
+export const Autocomplete: FC<InputProps> = memo(
+  forwardRef(
+    ({
+      id,
+      name,
+      label,
+      helpText,
+      labelSlot,
+      type = "text",
+      appendText,
+      placeholder,
+      maxLength,
+      required,
+      onChange,
+      ...rest
+    }) => {
+      const inputRef =
+        useRef<HTMLInputElement>() as React.MutableRefObject<HTMLInputElement>;
+      // https://github.com/DefinitelyTyped/DefinitelyTyped/issues/35572
+
+      const [personajes, setpersonajes] = useState(data); // info de los personajes (data)
+      const [value, setValue] = useState(""); // valor del input, valor inicial --> string vacío
+      const [, setPersonajeSeleccionado] = useState({}); // personaje que se ha seleccionado --> en el autocomplete se puede seleccionar un valor
+      // tmb está vacío ya que al principio no se selecciona ningún valor
+
+      // se llama a la siguiente función:
+      // filtro de personajes
+      // value --> recibe como parámetro el valor del input
+      const filtrarPersonajes = ({ value2 }: any) => {
+        const inputValue = value2.trim().toLowerCase(); // convertir todo a minúsculas. trim: se quitan espacios de inicio y final
+        const inputLength = inputValue.length; // si la longitud es igual a 0, retorna vacío
+
+        const filtrado = data.filter((personaje) => {
+          const textoCompleto = personaje.personaje;
+
+          // Propiedad: copiar y pegar: quitar tildes
+          if (
+            textoCompleto
+              .toLowerCase()
+              .normalize("NFD")
+              .replace(/[\u0300-\u036f]/g, "")
+              .includes(inputValue)
+          ) {
+            return personaje;
+          }
+        });
+
+        // en caso de que el input esté vacío, para que no marque error:
+        // si la longitud es igual a 0, retorna vacío
+        // ternario:
+        return inputLength === 0 ? [] : filtrado;
+      };
+
+      const onSuggestionsFetchRequested = ({ value1 }: any) => {
+        setpersonajes(filtrarPersonajes(value1));
+      };
+      // objeto --> value
+
+      // se manda llamar cada vez que se borran las sugerencias
+      const onSuggestionsClearRequested = () => {
+        setpersonajes([]);
+      };
+
+      const getSuggestionValue = (suggestion: { personaje: any }) =>
+        `${suggestion.personaje}`;
+
+      const seleccionarPersonaje = (personaje: React.SetStateAction<{}>) => {
+        setPersonajeSeleccionado(personaje); // se establece el personaje selecionado
+      };
+
+      // html que se va a mostrar:
+      const renderSuggestion = (suggestion: { personaje: any }) => (
+        <div
+          role="presentation"
+          className="sugerencia"
+          onClick={() => seleccionarPersonaje(suggestion)}
+        >
+          {`${suggestion.personaje}`}
+        </div>
+      );
+
+      // e de evento y nuevo valor del input
+      const innerOnChange = (e: FormEvent<HTMLElement>, { newValue }: any) => {
+        if (onChange) {
+          onChange(e);
+        }
+        setValue(newValue); // se le pasa el nuevo valor
+      };
+
+      // const autosuggestInputProps = {
+      //   placeholder: "Nombre del personaje", // valor por defecto
+      //   value, // valor del input. está establecido arriba. línea 26
+      //   onChange, // método onChange
+      // };
+
+      // validación cuando se le da al enter
+      // recibe un evento
+      // Todo: Verify type.
+      const eventEnter = (e: any) => {
+        if (e.key === "Enter") {
+          const split = e.target.value.split("-");
+          const personaje = {
+            personaje: split[0].trim(),
+          };
+          seleccionarPersonaje(personaje);
+        }
+      };
+
+      return (
+        <FormField
+          id={id}
+          label={label}
+          helpText={helpText}
+          labelSlot={labelSlot}
+        >
+          <StyledInput>
+            {appendText && <StyledPrefixText>{appendText}</StyledPrefixText>}
+
+            <StyledInputAutosuggest
+              {...rest}
+              id={id}
+              name={name}
+              type={type}
+              value={value}
+              ref={inputRef}
+              maxLength={maxLength}
+              placeholder={placeholder}
+            >
+              <Autosuggest
+                suggestions={personajes} // sugerencias que se van a mostrar en el autocomplete. // personajes importa la info del data
+                onSuggestionsFetchRequested={onSuggestionsFetchRequested} // se llama cada vez que se recalcula las sugerencias
+                onSuggestionsClearRequested={onSuggestionsClearRequested} // se manda llamar cada vez que se borran las sugerencias
+                getSuggestionValue={getSuggestionValue} // cuál debe de ser el valor de entrada cuando se hace click en la segurencia
+                renderSuggestion={renderSuggestion} // indica cómo se van a mostrar las sugerencias
+                inputProps={{
+                  placeholder: "Nombre del personaje", // valor por defecto
+                  value, // valor del input. está establecido arriba. línea 26
+                  onChange: (e: FormEvent<HTMLElement>, { newValue }) => {
+                    innerOnChange(e, newValue);
+                  }, // método onChange
+                }} // configuración del input: requiere el value (valor del input) y el método onChange (que se ejecuta cada vez que cambia de valor)
+                onSuggestionSelected={eventEnter} // propieda
+              />
+            </StyledInputAutosuggest>
+          </StyledInput>
+        </FormField>
+      );
+    }
+  )
+);
