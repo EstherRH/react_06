@@ -13,6 +13,7 @@ import Header02 from "./components_01/Header02";
 function Test01() {
 
     // En React los valores fluyen del padre al hijo pero no al revés
+    // del component 
     // el state se puede pasar por varios componentes: fluye hacia formulario y otros componentes
 
     // useState
@@ -87,13 +88,13 @@ function Test01() {
             {/*  El componente de Header se puede poner así:  */}
             <Header/>
             {/*  Es reutilizable: así que podemos pegar el Header múltiples veces
-                también así para incluir los props
+                también así para incluir los PROPS !!!!!
                 "título" es la propiedad, se le asigna un valor: "Prueba uno".   Se le está colocando un string, tmb puede ser una función
                 en Console: se pueden ver los props que se le pasan en Object: título y descripción
                 Aparece todo el árbol de componentes: se puede ir clicando en cada uno de ellos  */}
             <Header
                 titulo="Header 0"
-                descripcion="Utiliza el formulario y obten una cotización"/>
+                descripcion="Utiliza el formulario y obtén una cotización"/>
             <Header01
                 titulo="Header 1"
                 cantidad={cantidad}
