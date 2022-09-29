@@ -13,7 +13,7 @@ import Header02 from "./components_01/Header02";
 function Test01() {
 
     // En React los valores fluyen del padre al hijo pero no al revés
-    // del component 
+    // del component
     // el state se puede pasar por varios componentes: fluye hacia formulario y otros componentes
 
     // useState

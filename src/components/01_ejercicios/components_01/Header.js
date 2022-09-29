@@ -5,7 +5,7 @@ import React from 'react';
 // se le pasa props para poder leer Header en app.js
 function Header(props) {
 
-    /*   En este punto se puede colocar código estándar de javaScript   */
+    /*   En este punto se puede colocar CÓDIGO estándar de javaScript   */
 
     console.log(props)
 
