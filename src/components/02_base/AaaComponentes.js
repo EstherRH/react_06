@@ -17,6 +17,8 @@
 
 import React, {Fragment} from "react";
 
+
+// nombre del componente: PrimeraApp
 const PrimeraApp = () => {
 
 

@@ -23,13 +23,18 @@ function Test01() {
     // El state retorna dos valores
     // así se leen valores en el formulario
 
+    // VARIABLE, FUNCIÓN Y VALOR INICIAL
+
     // se define un state para la cantidad
+    // useState: retorna dos valores
     // cantidad es: una VARIABLE que contiene el valor
     // cantidad va a tener el valor que se le pasa al state
     // guardarCantidad es la función para guardar o modificar el state
     // guardarCantidad es: una FUNCIÓN que va a ser utilizada para estar interactuando y guardando lo que es el state que estamos creando
-    // al useState se le puede dar un VALOR INICIAL. En este caso empieza en cero
+    // al useState se le puede dar un VALOR INICIAL. En este caso empieza en 0
+    // cuando se use el state, va a tener el valor que se le pasa al useState cuando se use la función
     // Puede empezar en true o false, números, string vacío, etc.
+
 
     // eslint-disable-next-line react-hooks/rules-of-hooks
     const [cantidad, guardarCantidad ] = useState(0);
@@ -40,7 +45,7 @@ function Test01() {
     // guardarPlazo: es la función que va a modificar la función
     // pasamos ambas al Formulario
     // leer los datos de un select
-    // el plazo arranca en vacío
+    // el plazo arranca en vacío --> string vacío
     // eslint-disable-next-line react-hooks/rules-of-hooks
     const [plazo, guardarPlazo] = useState(''); // se le indica que es un string vacío
 
@@ -87,14 +92,16 @@ function Test01() {
 
             {/*  El componente de Header se puede poner así:  */}
             <Header/>
-            {/*  Es reutilizable: así que podemos pegar el Header múltiples veces
+
+            {/*  Es reutilizable: así podemos pegar el Header múltiples veces
                 también así para incluir los PROPS !!!!!
-                "título" es la propiedad, se le asigna un valor: "Prueba uno".   Se le está colocando un string, tmb puede ser una función
+                "título" es la propiedad, se le asigna un valor: "Header 0".   Se le está colocando un string, tmb puede ser una función
                 en Console: se pueden ver los props que se le pasan en Object: título y descripción
                 Aparece todo el árbol de componentes: se puede ir clicando en cada uno de ellos  */}
             <Header
                 titulo="Header 0"
                 descripcion="Utiliza el formulario y obtén una cotización"/>
+
             <Header01
                 titulo="Header 1"
                 cantidad={cantidad}
@@ -113,6 +120,10 @@ function Test01() {
 
             sintaxis:
             props={variable}
+
+            se le pasa vía pros: cantidad, guardaCantidad, plazo, etc
+            en Formulario.js --> se reciben los props
+
             */}
             <Formulario
                 cantidad={cantidad}

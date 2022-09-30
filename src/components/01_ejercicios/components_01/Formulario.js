@@ -12,6 +12,8 @@
 
 // en app.js  -->  import Formulario from "./components/Formulario";
 
+// Función: useState -> se importa de react
+
 import React, {useState} from "react";
 import './Formulario.css';
 import { calcularTotal } from "../../../helpers/helpers";
@@ -20,12 +22,13 @@ import { calcularTotal } from "../../../helpers/helpers";
 // se le pasa props
 const Formulario = (props) => {
 
-    // destructuring
+    // destructuring (de las funciones)
+    // va del padre al hijo
     const {cantidad, guardarCantidad, plazo, guardarPlazo, guardarTotal, guardarCargando } = props;
 
 
     // useState('false');
-    // Definir el state
+    // Aquí se define el state
     // se importa arriba  -->  import React, {useState} from "react";
     // ejemplo: tenemos un state para un mensaje de error
     // se inicializa en false porque no hay error hasta que el usuario hago algo mal
@@ -39,7 +42,7 @@ const Formulario = (props) => {
     // onChange: se va a ejecutar cada vez que el usuario comience a escribir en el input
     // se va a ejecutar la función de leerCantidad cada vez que hay un cambio
     // e --> para acceder al valor ( es el evento )
-    // e.target.value --> acceder a lo que el usuario está escribiendo
+    // e.target.value --> ACCEDER a lo que el usuario está escribiendo
     // guardarCantidad --> es la función que va a cambiar el state
     const leerCantidad = (e) => {
         guardarCantidad( parseInt( e.target.value ));
@@ -54,7 +57,7 @@ const Formulario = (props) => {
 
 
 
-    // Creamos la función: cuando el usuario hace submit
+    // Creamos la función: cuando el usuario hace submit --> en el formulario
     // e de evento
     const calcularPrestamo = e => {
         e.preventDefault();
@@ -62,9 +65,11 @@ const Formulario = (props) => {
 
         // Primero: Validar
         //  cantidad inicializa en 0 y plazo en un string vacío
+        // si la cantidad es 0 o el plazo es un string vacío, se muestra el error
         if( cantidad === 0 || plazo === '') {
             console.log('error');
             guardarError(true); // en caso de que haya un error, pasa a true (se inicializa en false)
+            // arriba el useState inicializa en false
             // cambia el estado del state ( de false a true)
             // tmb tiene que mostrar el mensaje cuando sea true
             return; // Resultado: 04_00_hooks_useState: state: true
@@ -78,9 +83,10 @@ const Formulario = (props) => {
 
             // Postponer 3 segundos para que aparezca el spinner
             setTimeout( () => {
-                // Realizar la cotización
+                // Segundo: Realizar la cotización
                 // se le pasa cantidad y plazo
                 // variable de total
+                // cacularTotal es una función que se importa arriba (es un helper)
                 const total = calcularTotal(cantidad, plazo);
                 console.log(total);
 
@@ -109,12 +115,12 @@ const Formulario = (props) => {
                     <div>
                         <label>Cantidad Prestamo</label>
 
-                        {/* se accede a lo que el usuario escribe en lo inputs */}
+                        {/* se accede a lo que el usuario escribe en los inputs */}
                         <input className="u-full-width"
                                type="number"
                                placeholder="Ejemplo: 3000"
 
-                            // es un evento:
+                            // al input se le pasa un evento:
                             // leerCantidad es una función que se va a ejecutar
                                onChange={ leerCantidad }
                         />
@@ -122,6 +128,7 @@ const Formulario = (props) => {
                     <div>
                         {/* Segundo campo del formulario: plazo para el préstamo */}
                         <label>Plazo para Pagar</label>
+                        {/*select: 3, 6, 12 y 24 meses*/}
                         <select
                             className="u-full-width"
                             onChange={ leerPrestamos }

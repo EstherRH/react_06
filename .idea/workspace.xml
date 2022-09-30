@@ -3,9 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="bbaae1ed-5776-4676-aa79-bd7024ab941e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/01_ejercicios/Test01.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/01_ejercicios/Test01.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/01_ejercicios/components_01/Formulario.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/01_ejercicios/components_01/Formulario.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/01_ejercicios/components_01/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/01_ejercicios/components_01/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/02_base/AaaComponentes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/02_base/AaaComponentes.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +50,7 @@
       <workItem from="1664193644076" duration="3123000" />
       <workItem from="1664281835033" duration="8144000" />
       <workItem from="1664462998682" duration="431000" />
-      <workItem from="1664463606959" duration="858000" />
+      <workItem from="1664463606959" duration="15055000" />
     </task>
     <servers />
   </component>

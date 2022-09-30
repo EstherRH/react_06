@@ -10,14 +10,16 @@ function Header(props) {
     console.log(props)
 
 
-    /*   Todo lo que está dentro del return es lo que se va a mostrar en pantalla   */
+    /*   Todo lo que está dentro del return es lo que se va a mostrar en pantalla
+    *     es código JSX: mezcla de HTML y javaScript
+    *    */
     return(
-        // se envuelve todo dentro de un div
+        // se envuelve todo dentro de un div porque se devuelve varios elementos
         <div className="header_container">
             <p>Hola mundo</p>
 
             {/*   Cómo acceder a los props: { props.titulo }
-             es html pero lo que está dentro de las llaves {  } interprétalo como código JS
+             es html pero lo que está dentro de las llaves {  } se interpreta como código JS
              se le pueden pasar varios props
              aquí tendríamos DOS props:
              */}
