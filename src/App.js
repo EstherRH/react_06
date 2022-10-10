@@ -16,10 +16,10 @@ import '../src/App.css';
 // import EventoClick from "./components/03_eventos/EventoClick";
 // import Base from "./components/04_00_hooks_useState/AaBase";
 // import Aaaa from "./components/navbar/Aaa";
-import GifApp from "./components/05_gifAppBuscador/GifExpertApp";
-import CounterAppUseState from "./components/04_00_hooks_useState/UseState";
-import CounterApp1 from "./components/04_00_hooks_useState/CounterApp1";
-import CounterApp2 from "./components/04_00_hooks_useState/CounterApp2";
+// import GifApp from "./components/05_gifAppBuscador/GifExpertApp";
+// import CounterAppUseState from "./components/04_00_hooks_useState/UseState";
+// import CounterApp1 from "./components/04_00_hooks_useState/CounterApp1";
+// import CounterApp2 from "./components/04_00_hooks_useState/CounterApp2";
 // import UseEfecct from "./components/04_00_hooks_useEffect/UseEfecct";
 // import MultipleCustomHook from "./components/04_01_useFetch/MultipleCustomHooks";
 // import SimpleForm from "./components/04_00_useEffect/UseEfecct";
@@ -27,11 +27,12 @@ import CounterApp2 from "./components/04_00_hooks_useState/CounterApp2";
 // import Login from "./components/formularios/form";
 // import Basic from "./components/formularios/form2/Basic";
 // import Val from "./components/formularios/form3/Val";
-// import Formulario from "./components/formularios/form4/Formulario";
+import Formulario from "./components/formularios/form4/Formulario";
 // import FocusScreen from "./components/04_02_useRef/FocusScreen";
-import Layaout1 from "./components/04_03_useLayaoutEffect/Layout1";
-import Correo from "./components/04_02_useRef/CorreoWow";
-import Autocomplete from "./components/autocomplete/Autocomplete";
+// import Layaout1 from "./components/04_03_useLayaoutEffect/Layout1";
+// import Correo from "./components/04_02_useRef/CorreoWow";
+// import Autocomplete from "./components/autocomplete/Autocomplete";
+// import SelectDemo from "./components/autocomplete2/autoc";
 
 
 function App() {
@@ -54,7 +55,7 @@ function App() {
             {/*<EventoClick/>*/}
             {/*<Base/>*/}
             {/*<Aaaa/>*/}
-            <GifApp/>
+            {/*<GifApp/>*/}
             {/*<CounterAppUseState/>*/}
             {/*<CounterApp1/>*/}
             {/*<CounterApp2/>*/}
@@ -66,10 +67,11 @@ function App() {
             {/*<Login/>*/}
             {/*<Basic/>*/}
             {/*<Val/>*/}
-            {/*<Formulario/>*/}
+            <Formulario/>
             {/*<Layaout1/>*/}
             {/*<Correo/>*/}
-            <Autocomplete/>
+            {/*<Autocomplete/>*/}
+            {/*<SelectDemo/>*/}
         </div>
     );
 }

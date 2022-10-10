@@ -16,9 +16,9 @@
 
 import React, {useEffect, useState} from "react";
 import '../04_00_hooks_useState/style.css';
-import {Message1} from "./UseEffectMessaje2";
+import {Message1} from "./UseEffectMessage2";
 // import Message from "./UseEffectMessage";
-// import {Message1} from "./UseEffectMessaje2";
+// import {Message1} from "./UseEffectMessage2";
 
 const SimpleForm = () => {
 
@@ -50,8 +50,8 @@ const SimpleForm = () => {
 
 
     // recibe una función de flecha
-    // el primer argumento es el Callback: es la función que se ejecuta cada vez que el useEffect se dispare
-    // el segundo valor que se le manda: son las DEPENDENCIAS
+    // - el primer argumento es el Callback: es la función que se ejecuta cada vez que el useEffect se dispare
+    // - el segundo valor que se le manda: son las DEPENDENCIAS
     // es importante colocar las dependencias
     // deps: []  -->  si el array está vacío, el useEffect se va a disparar SOLO UNA VEZ
     useEffect( () => {
@@ -61,7 +61,7 @@ const SimpleForm = () => {
 
 
     // disparar el useEffect cada vez que el form cambie (solo el formulario)
-    // dependencia: se le pasa el formState -->  porque queremos escuchar sus cambios
+    // dependencia: se le pasa el formState --> porque queremos escuchar sus cambios
     // deps: [formState] --> se dispara cada vez que el formulario cambia
     // se recomienda crear un useEffect por cada acción que se quiera ejecutar
     // este efecto va a estar pendiente del formState

@@ -20,7 +20,7 @@ function Test01() {
     // hay que importarlo arriba
     // se define un state para la cantidad
     // lo que sea interactivo tendrá state
-    // El state retorna dos valores
+    // El state retorna --> dos valores
     // así se leen valores en el formulario
 
     // VARIABLE, FUNCIÓN Y VALOR INICIAL
@@ -57,7 +57,7 @@ function Test01() {
     const [total, guardarTotal] = useState(0);
 
     // Spinner
-    // se inicia en false (cuando se inicia la app no va a salir en spinner
+    // se inicia en false (cuando se inicia la app no va a salir el spinner)
     // eslint-disable-next-line react-hooks/rules-of-hooks
     const [cargando, guardarCargando] = useState(true);
 
