@@ -9,23 +9,39 @@ const BbbCom = () => {
 
     const saludo = 'Hola mundo const'  // constante con el nombre de saludo
     const num = 123
+    const num1 = "456"
+    const verdad = true
     const array = [1,2,3,4,5]   // concatenación de elementos
 
-    const objeto = {
-        nombre: 'Fernando',
+    // objeto
+    const newMessage = {
+        nombre: 'Esther',
         edad: 34
     }
 
     return (
         <>
-            {/*imprime la variable en el html*/}
+            {/*  imprime la variable en el html
+              Dentro de las llaves:
+                se coloca cualquier expresión de JS que retorne un valor
+                dentro se coloca una expresión permitida de JS que no sea un objeto
+              */}
             <p> { saludo } </p>
             <p> { num } </p>
+            <p> { num1 } </p>
+            <p> { verdad } </p>  {/*este no se va a imprimir*/}
             <p> { array } </p>
 
+             {/*<p> { newMessage } </p> esto daría error*/}
+            <p> { newMessage.nombre } </p>
+            <p> { newMessage.edad } </p>
+
             {/*JSON.stringify() --> convierte el objeto a string*/}
-            {/*etiqueta pre*/}
-            <pre> { JSON.stringify( objeto, null, 3 ) } </pre>
+            {/*etiqueta pre y code
+            Rdo: aparece en el html como un objeto
+            */}
+            <pre> { JSON.stringify( newMessage, null, 3 ) } </pre>
+            <code> { JSON.stringify( newMessage, null, 3 ) } </code>
             <p className="">Hello there</p>
         </>
     );
