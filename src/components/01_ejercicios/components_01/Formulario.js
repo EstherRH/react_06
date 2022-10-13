@@ -12,8 +12,7 @@
 
 // en app.js  -->  import Formulario from "./components/Formulario";
 
-// Función: useState -> se importa de react
-
+// Función: useState -> se importa de react ---> import React, {useState} from "react";
 import React, {useState} from "react";
 import './Formulario.css';
 import { calcularTotal } from "../../../helpers/helpers";
@@ -28,7 +27,7 @@ const Formulario = (props) => {
 
 
     // useState('false');
-    // Aquí se define el state
+    // Aquí se define el STATE
     // se importa arriba  -->  import React, {useState} from "react";
     // ejemplo: tenemos un state para un mensaje de error
     // se inicializa en false porque no hay error hasta que el usuario hago algo mal
@@ -36,7 +35,7 @@ const Formulario = (props) => {
 
 
     // se define la función
-    // se utilizan los eventos
+    // se utilizan los EVENTOS
     // es un arrow function
     // en el input: onChange={ leerCantidad }
     // onChange: se va a ejecutar cada vez que el usuario comience a escribir en el input
@@ -45,7 +44,7 @@ const Formulario = (props) => {
     // e.target.value --> ACCEDER a lo que el usuario está escribiendo
     // guardarCantidad --> es la función que va a cambiar el state
     const leerCantidad = (e) => {
-        guardarCantidad( parseInt( e.target.value ));
+        guardarCantidad( parseInt( e.target.value )); // aquí va a guardar la cantidad que el usuario está escribiendo
     }
 
 
@@ -63,7 +62,7 @@ const Formulario = (props) => {
         e.preventDefault();
         console.log('enviando...');
 
-        // Primero: Validar
+        // Primero: Validar (el segundo paso esá en helpers/helpers.js)
         //  cantidad inicializa en 0 y plazo en un string vacío
         // si la cantidad es 0 o el plazo es un string vacío, se muestra el error
         if( cantidad === 0 || plazo === '') {
@@ -104,6 +103,7 @@ const Formulario = (props) => {
     return (
         <div>
             {/* type="submit" --> evento cuando el usuario presiona el botón de enviar los datos:
+            (se hace un event listener a subimit)
              onSubmit={calcularPrestamo}
              función: calcularPrestamo
              */}
@@ -115,13 +115,15 @@ const Formulario = (props) => {
                     <div>
                         <label>Cantidad Prestamo</label>
 
-                        {/* se accede a lo que el usuario escribe en los inputs */}
+                        {/* se accede a lo que el usuario ESCRIBE en los INPUTS */}
                         <input className="u-full-width"
                                type="number"
                                placeholder="Ejemplo: 3000"
 
+                            // onChange evento
+                            // se va a ejecutar la función de leerCantidad cada vez que hay un cambio (cuando se va escribiendo)
                             // al input se le pasa un evento:
-                            // leerCantidad es una función que se va a ejecutar
+                            // leerCantidad es una función que se va a ejecutar cada vez que el usuario comience a escribir en el input
                                onChange={ leerCantidad }
                         />
                     </div>
@@ -129,10 +131,8 @@ const Formulario = (props) => {
                         {/* Segundo campo del formulario: plazo para el préstamo */}
                         <label>Plazo para Pagar</label>
                         {/*select: 3, 6, 12 y 24 meses*/}
-                        <select
-                            className="u-full-width"
-                            onChange={ leerPrestamos }
-                        >
+                        <select className="u-full-width"
+                            onChange={ leerPrestamos }>
                             <option value="">Seleccionar</option>
                             <option value="3">3 meses</option>
                             <option value="6">6 meses</option>
@@ -151,7 +151,6 @@ const Formulario = (props) => {
 
             {/* si error está en true, sale el mensaje, en caso contrario, no ejecutar nada */}
             { (error === true) ? <p>Todos los campos son obligatorios</p> : ''}
-
         </div>
     );
 }

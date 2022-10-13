@@ -10,7 +10,7 @@ import Spinner from "./components_01/Spinner";
 import Header02 from "./components_01/Header02";
 
 
-function Test01() {
+const Test01 = () => {
 
     // En React los valores fluyen del padre al hijo pero no al revés
     // del component
@@ -28,16 +28,17 @@ function Test01() {
     // se define un state para la cantidad
     // useState: retorna dos valores
     // cantidad es: una VARIABLE que contiene el valor
-    // cantidad va a tener el valor que se le pasa al state
+    // cantidad va a tener el valor que se le pasa al state --> un 5
     // guardarCantidad es la función para guardar o modificar el state
     // guardarCantidad es: una FUNCIÓN que va a ser utilizada para estar interactuando y guardando lo que es el state que estamos creando
-    // al useState se le puede dar un VALOR INICIAL. En este caso empieza en 0
+    // al useState se le puede dar un VALOR INICIAL. En este caso empieza en 5
     // cuando se use el state, va a tener el valor que se le pasa al useState cuando se use la función
     // Puede empezar en true o false, números, string vacío, etc.
 
 
     // eslint-disable-next-line react-hooks/rules-of-hooks
-    const [cantidad, guardarCantidad ] = useState(0);
+    // se coloca cantidad y guardarCantidad en el padre, para que fluja hacia el hijo
+    const [cantidad, guardarCantidad ] = useState(5);
 
     // const [plazo, guardarPlazo] = useState(0);
 
@@ -91,25 +92,25 @@ function Test01() {
             {/*  <Props />  */}
 
             {/*  El componente de Header se puede poner así:  */}
-            <Header/>
+            {/*<Header/>*/}
 
             {/*  Es reutilizable: así podemos pegar el Header múltiples veces
                 también así para incluir los PROPS !!!!!
                 "título" es la propiedad, se le asigna un valor: "Header 0".   Se le está colocando un string, tmb puede ser una función
                 en Console: se pueden ver los props que se le pasan en Object: título y descripción
                 Aparece todo el árbol de componentes: se puede ir clicando en cada uno de ellos  */}
-            <Header
-                titulo="Header 0"
-                descripcion="Utiliza el formulario y obtén una cotización"/>
+            {/*<Header*/}
+            {/*    titulo="Header 0"*/}
+            {/*    descripcion="Utiliza el formulario y obtén una cotización"/>*/}
 
             <Header01
                 titulo="Header 1"
                 cantidad={cantidad}
             />
 
-            <Header02
-                titulo="Header 2"
-            />
+            {/*<Header02*/}
+            {/*    titulo="Header 2"*/}
+            {/*/>*/}
 
 
 
@@ -123,6 +124,8 @@ function Test01() {
 
             se le pasa vía pros: cantidad, guardaCantidad, plazo, etc
             en Formulario.js --> se reciben los props
+
+            props y variable:cantidad={cantidad}
 
             */}
             <Formulario

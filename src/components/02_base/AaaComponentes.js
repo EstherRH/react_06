@@ -21,6 +21,11 @@ import React, {Fragment} from "react";
 // nombre del componente: PrimeraApp
 const PrimeraApp = () => {
 
+    const persona = {
+        id: '123',
+        dd: 'dd'
+    }
+
 
     //  regresar un html
     //  solo puede retornar un objeto a la vez: envolver todo en un div ( o en un fragment)
@@ -32,6 +37,7 @@ const PrimeraApp = () => {
         <>
             <p>Hello there!</p>
             <p>Hello there!</p>
+            {persona}
         </>
 
         // </Fragment>

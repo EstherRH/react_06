@@ -20,7 +20,7 @@ const Resultado = ({cantidad, total, plazo}) => {
 
 // { (total/plazo).toFixed(2) }
 // al agregar llaves se pueden hacer operaciones en JS
-// .toFixed(2) --> redondea a 2 decimales
+// .toFixed(2) --> REDONDEA a 2 decimales
 
 export default Resultado;
 

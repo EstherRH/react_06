@@ -19,7 +19,8 @@ const Header01 = (props) => {
             {/*Aquí se llama al total
             de la función que hemos creado antes*/}
             <p>La suma es { total }</p>
-            <p> esta es la {cantidad}</p>
+            <p>Esta es la {cantidad}</p>
+        {/*  En cantidad aparece un 5 porque es el estado inicial  */}
         </div>
     );
 }
