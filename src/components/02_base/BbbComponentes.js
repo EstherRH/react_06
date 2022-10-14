@@ -5,6 +5,12 @@
 
 import React from "react";
 
+
+const getResultado = () => {
+    return 4+4;
+}
+
+
 const BbbCom = () => {
 
     const saludo = 'Hola mundo const'  // constante con el nombre de saludo
@@ -17,6 +23,10 @@ const BbbCom = () => {
     const newMessage = {
         nombre: 'Esther',
         edad: 34
+    }
+
+    const getResultado1 = (a, b) => {
+        return a*b;
     }
 
     return (
@@ -32,7 +42,11 @@ const BbbCom = () => {
             <p> { verdad } </p>  {/*este no se va a imprimir*/}
             <p> { array } </p>
 
-             {/*<p> { newMessage } </p> esto daría error*/}
+            {/* se llama a la función getResultado, que está definida arriba */}
+            <p> { getResultado() } </p>    {/* 8 */}
+            <p> { getResultado1(2, 5) } </p>   {/* 10 */}
+
+            {/*<p> { newMessage } </p> esto daría error*/}
             <p> { newMessage.nombre } </p>
             <p> { newMessage.edad } </p>
 

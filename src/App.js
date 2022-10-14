@@ -10,8 +10,8 @@ import '../src/App.css';
 // import ModalPrueba from "./components/components_02/ModalPrueba";
 import BbbCom from "./components/02_base/BbbComponentes";
 import PrimeraApp from "./components/02_base/AaaComponentes";
-// import BbbProps from "./components/02_base/BbbProps";
-// import BbbPropsTypes from "./components/02_base/BbbPropTypes";
+import BbbProps from "./components/02_base/BbbProps";
+import BbbPropsTypes from "./components/02_base/BbbPropTypes";
 // import CounterApp from "./components/02_base/CounterApp";
 // import EventoClick from "./components/03_eventos/EventoClick";
 // import Base from "./components/04_00_hooks_useState/AaBase";
@@ -44,9 +44,12 @@ function App() {
             {/*<Test01/>*/}
             {/*<Test02/>*/}
             {/*<PrimeraApp/>*/}
-            <BbbCom />
-            {/*<BbbProps/>*/}
-            {/*<BbbPropsTypes/>*/}
+            {/*<BbbCom />*/}
+
+            {/* se pasa del componente padre al hijo */}
+            {/*<BbbProps saludo1="11233"/>*/}
+
+            <BbbPropsTypes hey={"hellooo"}/>
             {/*<VariablesConstantes/>*/}
             {/*<Pruebas/>*/}
             {/* seguir este ejercicio  <DataHeroes/>*/}

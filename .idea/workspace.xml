@@ -4,223 +4,15 @@
     <list default="true" id="bbaae1ed-5776-4676-aa79-bd7024ab941e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.cache/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/.eslintcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/dist/css/bootstrap-grid.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/dist/css/bootstrap-grid.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/dist/css/bootstrap-grid.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/dist/css/bootstrap-grid.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/dist/css/bootstrap-grid.rtl.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/dist/css/bootstrap-grid.rtl.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/dist/css/bootstrap-grid.rtl.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/dist/css/bootstrap-reboot.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/dist/css/bootstrap-reboot.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/dist/css/bootstrap-reboot.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/dist/css/bootstrap-reboot.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/dist/css/bootstrap-reboot.rtl.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/dist/css/bootstrap-reboot.rtl.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/dist/css/bootstrap-reboot.rtl.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/dist/css/bootstrap-utilities.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/dist/css/bootstrap-utilities.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/dist/css/bootstrap-utilities.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/dist/css/bootstrap-utilities.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/dist/css/bootstrap-utilities.rtl.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/dist/css/bootstrap-utilities.rtl.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/dist/css/bootstrap-utilities.rtl.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/dist/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/dist/css/bootstrap.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/dist/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/dist/css/bootstrap.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/dist/css/bootstrap.rtl.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/dist/css/bootstrap.rtl.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/dist/css/bootstrap.rtl.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/dist/css/bootstrap.rtl.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/dist/js/bootstrap.bundle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/dist/js/bootstrap.bundle.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/dist/js/bootstrap.bundle.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/dist/js/bootstrap.bundle.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/dist/js/bootstrap.esm.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/dist/js/bootstrap.esm.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/dist/js/bootstrap.esm.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/dist/js/bootstrap.esm.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/dist/js/bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/dist/js/bootstrap.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/dist/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/dist/js/bootstrap.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/js/dist/alert.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/js/dist/alert.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/js/dist/base-component.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/js/dist/base-component.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/js/dist/button.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/js/dist/button.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/js/dist/carousel.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/js/dist/carousel.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/js/dist/collapse.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/js/dist/collapse.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/js/dist/dom/data.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/js/dist/dom/data.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/js/dist/dom/event-handler.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/js/dist/dom/event-handler.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/js/dist/dom/manipulator.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/js/dist/dom/manipulator.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/js/dist/dom/selector-engine.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/js/dist/dom/selector-engine.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/js/dist/dropdown.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/js/dist/dropdown.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/js/dist/modal.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/js/dist/modal.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/js/dist/offcanvas.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/js/dist/offcanvas.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/js/dist/popover.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/js/dist/popover.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/js/dist/scrollspy.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/js/dist/scrollspy.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/js/dist/tab.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/js/dist/tab.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/js/dist/toast.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/js/dist/toast.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/js/dist/tooltip.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/js/dist/tooltip.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/js/dist/util/backdrop.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/js/dist/util/backdrop.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/js/dist/util/component-functions.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/js/dist/util/component-functions.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/js/dist/util/config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/js/dist/util/config.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/js/dist/util/focustrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/js/dist/util/focustrap.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/js/dist/util/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/js/dist/util/index.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/js/dist/util/sanitizer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/js/dist/util/sanitizer.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/js/dist/util/scrollbar.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/js/dist/util/scrollbar.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/js/dist/util/swipe.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/js/dist/util/swipe.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/js/dist/util/template-factory.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/js/dist/util/template-factory.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/js/src/alert.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/js/src/base-component.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/js/src/button.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/js/src/carousel.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/js/src/collapse.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/js/src/dom/data.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/js/src/dom/event-handler.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/js/src/dom/manipulator.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/js/src/dom/selector-engine.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/js/src/dropdown.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/js/src/modal.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/js/src/offcanvas.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/js/src/popover.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/js/src/scrollspy.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/js/src/tab.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/js/src/toast.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/js/src/tooltip.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/js/src/util/backdrop.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/js/src/util/component-functions.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/js/src/util/config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/js/src/util/focustrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/js/src/util/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/js/src/util/sanitizer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/js/src/util/scrollbar.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/js/src/util/swipe.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/js/src/util/template-factory.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/scss/_accordion.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/scss/_alert.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/scss/_badge.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/scss/_breadcrumb.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/scss/_button-group.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/scss/_buttons.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/scss/_card.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/scss/_carousel.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/scss/_close.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/scss/_containers.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/scss/_dropdown.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/scss/_forms.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/scss/_functions.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/scss/_grid.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/scss/_helpers.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/scss/_images.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/scss/_list-group.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/scss/_maps.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/scss/_mixins.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/scss/_modal.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/scss/_nav.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/scss/_navbar.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/scss/_offcanvas.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/scss/_pagination.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/scss/_placeholders.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/scss/_popover.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/scss/_progress.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/scss/_reboot.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/scss/_root.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/scss/_spinners.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/scss/_tables.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/scss/_toasts.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/scss/_tooltip.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/scss/_transitions.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/scss/_type.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/scss/_utilities.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/scss/_variables.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/scss/bootstrap-grid.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/scss/bootstrap-reboot.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/scss/bootstrap-utilities.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/scss/bootstrap.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/scss/forms/_floating-labels.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/scss/forms/_form-check.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/scss/forms/_form-control.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/scss/forms/_form-range.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/scss/forms/_form-select.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/scss/forms/_form-text.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/scss/forms/_input-group.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/scss/forms/_labels.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/scss/forms/_validation.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/scss/helpers/_clearfix.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/scss/helpers/_color-bg.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/scss/helpers/_colored-links.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/scss/helpers/_position.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/scss/helpers/_ratio.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/scss/helpers/_stacks.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/scss/helpers/_stretched-link.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/scss/helpers/_text-truncation.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/scss/helpers/_visually-hidden.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/scss/helpers/_vr.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/scss/mixins/_alert.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/scss/mixins/_backdrop.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/scss/mixins/_border-radius.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/scss/mixins/_box-shadow.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/scss/mixins/_breakpoints.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/scss/mixins/_buttons.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/scss/mixins/_caret.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/scss/mixins/_clearfix.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/scss/mixins/_color-scheme.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/scss/mixins/_container.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/scss/mixins/_deprecate.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/scss/mixins/_forms.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/scss/mixins/_gradients.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/scss/mixins/_grid.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/scss/mixins/_image.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/scss/mixins/_list-group.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/scss/mixins/_lists.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/scss/mixins/_pagination.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/scss/mixins/_reset-text.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/scss/mixins/_resize.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/scss/mixins/_table-variants.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/scss/mixins/_text-truncate.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/scss/mixins/_transition.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/scss/mixins/_utilities.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/scss/mixins/_visually-hidden.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/scss/utilities/_api.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap/scss/vendor/_rfs.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-autosuggest/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-autosuggest/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/01_ejercicios/Test01.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/01_ejercicios/Test01.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/02_base/AaaComponentes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/02_base/AaaComponentes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/01_ejercicios/components_02/ModalPrueba.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/01_ejercicios/components_02/ModalPrueba.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/02_base/BbbComponentes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/02_base/BbbComponentes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/02_base/BbbProsp.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/02_base/BbbProps.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/02_base/BbbPropTypes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/02_base/BbbPropTypes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/02_base/BbbProps.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/02_base/BbbProps.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/formularios/form_borrar.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -280,7 +72,7 @@
       <workItem from="1664973456885" duration="5451000" />
       <workItem from="1665397066927" duration="6430000" />
       <workItem from="1665412671443" duration="18280000" />
-      <workItem from="1665498863626" duration="16413000" />
+      <workItem from="1665498863626" duration="29811000" />
     </task>
     <servers />
   </component>
