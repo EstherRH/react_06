@@ -12,7 +12,7 @@ import BbbCom from "./components/02_base/BbbComponentes";
 import PrimeraApp from "./components/02_base/AaaComponentes";
 import BbbProps from "./components/02_base/BbbProps";
 import BbbPropsTypes from "./components/02_base/BbbPropTypes";
-// import CounterApp from "./components/02_base/CounterApp";
+import CounterApp from "./components/02_base/CounterApp";
 // import EventoClick from "./components/03_eventos/EventoClick";
 // import Base from "./components/04_00_hooks_useState/AaBase";
 // import Aaaa from "./components/navbar/Aaa";
@@ -49,12 +49,12 @@ function App() {
             {/* se pasa del componente padre al hijo */}
             {/*<BbbProps saludo1="11233"/>*/}
 
-            <BbbPropsTypes hey={"hellooo"}/>
+            {/*<BbbPropsTypes hey={"hellooo"} subtitulo={"dd"}/>*/}
             {/*<VariablesConstantes/>*/}
             {/*<Pruebas/>*/}
             {/* seguir este ejercicio  <DataHeroes/>*/}
             {/*<ModalPrueba/>*/}
-            {/*<CounterApp/>    /!*Ejercicio*!/*/}
+            <CounterApp/>    {/*Ejercicio*/}
             {/*<EventoClick/>*/}
             {/*<Base/>*/}
             {/*<Aaaa/>*/}

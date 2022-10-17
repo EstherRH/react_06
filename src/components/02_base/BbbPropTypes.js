@@ -4,28 +4,40 @@
 // verificación de tipos
 // Para usar VERIFICACIÓN de tipos en las props de un componente, puedes asignar la propiedad especial PropTypes:
 
+// defaultProps --> valores por defecto
+
 import React from "react";
 import PropTypes from 'prop-types'
 
-const BbbPropsTypes = ( { hey = 'Hola Bbb', hey1 = 'Bbbbb', subtitulo, subtitulo1 = "123", subtitulo2, subtitulo3, subtitulo4 } ) => {
+const BbbPropsTypes =
+    ({
+         hey = 'Hola Bbb',
+         hey1 = 'Bbbbb',
+         subtitulo,
+         subtitulo1 = "123",
+         subtitulo2,
+         subtitulo3,
+         subtitulo4
+     }) => {
 
-    return (
-        <>
-            <p> { hey } </p>
-            <p> { hey1 } </p>
-            <p className="">Hello there</p>
-            <p> { subtitulo } </p>
-            <p> { subtitulo1 } </p>
-            <p> { subtitulo2 } </p>
-            <p> { subtitulo3 } </p>
-            <p> { subtitulo4 } </p>
-        </>
-    );
-};
+        return (
+            <>
+                <p> { hey } </p>
+                <p> { hey1 } </p>
+                <p className="">Hello there</p>
+                <p> { subtitulo } </p>
+                <p> { subtitulo1 } </p>
+                <p> { subtitulo2 } </p>
+                <p> { subtitulo3 } </p>
+                <p> { subtitulo4 } </p>
+            </>
+        );
+    };
 
 // Se coloca aquí. Fuera de la función
 // PrimeraApp.propTypes   es igual a un objeto --> { ... }
 // puede ser: .string, . number, .bool, .array, etc.
+// ejemplos:
 BbbPropsTypes.propTypes = {
     hey: PropTypes.string.isRequired,
     hey1: PropTypes.string,
@@ -35,7 +47,9 @@ BbbPropsTypes.propTypes = {
     // etc
 }
 
+
 // DefaultProps
+// en subtítulo: aparece el valor por defecto en App.js y si se borra, aparece el valor por defecto de aquí
 BbbPropsTypes.defaultProps = {
     subtitulo: 'Soy un subtítulo',  // valores por defecto
     subtitulo4: ''
