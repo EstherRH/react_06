@@ -34,7 +34,7 @@ const Aaaa = () => {
             <nav className="navigation">
                 <ul>
                     <li className="list active">
-                        <a href="#home">
+                        <a href="src/components/01_ejercicios/navbar/Aaa#home">
                     <span className="icon">
                         <ion-icon name="home-outline"></ion-icon>
                     </span>
@@ -42,7 +42,7 @@ const Aaaa = () => {
                         </a>
                     </li>
                     <li className="list">
-                        <a href="#about">
+                        <a href="src/components/01_ejercicios/navbar/Aaa#about">
                     <span className="icon">
                         <ion-icon name="person-outline"></ion-icon>
                     </span>
@@ -50,7 +50,7 @@ const Aaaa = () => {
                         </a>
                     </li>
                     <li className="list">
-                        <a href="#working">
+                        <a href="src/components/01_ejercicios/navbar/Aaa#working">
                     <span className="icon">
                         <ion-icon name="newspaper-outline"></ion-icon>
                     </span>
@@ -58,7 +58,7 @@ const Aaaa = () => {
                         </a>
                     </li>
                     <li className="list">
-                        <a href="#Learned">
+                        <a href="src/components/01_ejercicios/navbar/Aaa#Learned">
                     <span className="icon">
                         <ion-icon name="code-slash-outline"></ion-icon>
                     </span>
@@ -66,7 +66,7 @@ const Aaaa = () => {
                         </a>
                     </li>
                     <li className="list">
-                        <a href="#contact">
+                        <a href="src/components/01_ejercicios/navbar/Aaa#contact">
                     <span className="icon">
                         <ion-icon name="chatbox-outline"></ion-icon>
                     </span>

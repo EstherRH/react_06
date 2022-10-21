@@ -1,5 +1,5 @@
 import React from "react";
-import InputField from "../form2/InputField";
+import InputField from "./InputField";
 
 export const BasicForm = ({
   handleChange,

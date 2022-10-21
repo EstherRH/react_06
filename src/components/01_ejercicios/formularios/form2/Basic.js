@@ -3,7 +3,7 @@
 
 import React from "react";
 import { Formik } from "formik";
-import { BasicForm } from "../form2/BasicForm";
+import { BasicForm } from "./BasicForm";
 
 const validation = values => {
   let errors = {};

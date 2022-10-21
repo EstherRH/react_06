@@ -3,7 +3,7 @@
 
 // https://github.com/DevJuliox/validar-login/blob/main/pages/index.js
 
-import LoginCss from '../form/styles/Home.module.css'
+import LoginCss from './styles/Home.module.css'
 import Link from 'next/link'
 import { useForm } from "react-hook-form";
 import { useState } from 'react'
