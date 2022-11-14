@@ -20,11 +20,9 @@ const EventoClick = ({ value= 10 }) => {
     // setCounter es la función que vamos a usar para incrementar, resetear o disminuir
     const [ counter, setCounter ] = useState( 0 );
 
-    // agregar 1
-    // así se modifica el valor de counter
-    // en este caso se incrementa
-    const handleAdd = () => {
-        setCounter( counter + 1 );
+    // eliminar 1
+    const handleSubtract = () => {
+        setCounter( counter - 1 );
     }
 
     // resetear
@@ -33,9 +31,11 @@ const EventoClick = ({ value= 10 }) => {
         setCounter( value );
     }
 
-    // eliminar 1
-    const handleSubtract = () => {
-        setCounter( counter - 1 );
+    // agregar 1
+    // así se modifica el valor de counter
+    // en este caso se incrementa
+    const handleAdd = () => {
+        setCounter( counter + 1 );
     }
 
     return (
@@ -44,6 +44,7 @@ const EventoClick = ({ value= 10 }) => {
             <p> { counter } </p>
 
             {/*  evento onClick   */}
+            {/*  onClick= {  aquí dentro va una función: se llama a esa función  }  */}
             {/*  sumar, resetear, restar   */}
             {/*  handleSubtract --> función que se dispara cuando alguien hace click   */}
             <button onClick={ handleSubtract } > -1 </button>

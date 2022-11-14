@@ -2,25 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bbaae1ed-5776-4676-aa79-bd7024ab941e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/01_ejercicios/lista map/Lista.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.cache/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/02_base/CounterApp.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/02_base/CounterApp.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/autocomplete/Autoc.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/01_ejercicios/autocomplete/Autoc.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/autocomplete/Autocomplete.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/01_ejercicios/autocomplete/Autocomplete.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/autocomplete/dd" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/01_ejercicios/autocomplete/dd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/autocomplete2/autoc.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/01_ejercicios/autocomplete2/autoc.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/formularios/form/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/01_ejercicios/formularios/form/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/formularios/form/styles/Home.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/01_ejercicios/formularios/form/styles/Home.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/formularios/form/styles/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/01_ejercicios/formularios/form/styles/globals.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/formularios/form2/Basic.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/01_ejercicios/formularios/form2/Basic.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/formularios/form2/BasicForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/01_ejercicios/formularios/form2/BasicForm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/formularios/form2/InputField.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/01_ejercicios/formularios/form2/InputField.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/formularios/form3/Val.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/01_ejercicios/formularios/form3/Val.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/formularios/form4/Formulario.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/01_ejercicios/formularios/form4/Formulario.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/navbar/Aaa.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/01_ejercicios/navbar/Aaa.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/navbar/Aaa.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/01_ejercicios/navbar/Aaa.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/03_eventos/EventoClick.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/03_eventos/EventoClick.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/04_00_hooks_useState/CounterApp1.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/04_00_hooks_useState/CounterApp1.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,6 +84,10 @@
       <workItem from="1666195151688" duration="1080000" />
       <workItem from="1666265854626" duration="8765000" />
       <workItem from="1666349586415" duration="605000" />
+      <workItem from="1666352089344" duration="5236000" />
+      <workItem from="1666603702591" duration="1652000" />
+      <workItem from="1666794175528" duration="1304000" />
+      <workItem from="1667405565426" duration="288000" />
     </task>
     <servers />
   </component>

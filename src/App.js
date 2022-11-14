@@ -8,12 +8,12 @@ import '../src/App.css';
 // import Pruebas from "./Pruebas";
 // import VariablesConstantes from "./components/components_02/01_var_constantes";
 // import ModalPrueba from "./components/components_02/ModalPrueba";
-import BbbCom from "./components/02_base/BbbComponentes";
-import PrimeraApp from "./components/02_base/AaaComponentes";
-import BbbProps from "./components/02_base/BbbProps";
-import BbbPropsTypes from "./components/02_base/BbbPropTypes";
+// import BbbCom from "./components/02_base/BbbComponentes";
+// import PrimeraApp from "./components/02_base/AaaComponentes";
+// import BbbProps from "./components/02_base/BbbProps";
+// import BbbPropsTypes from "./components/02_base/BbbPropTypes";
 import EjercicioCounterApp from "./components/02_base/CounterApp";
-import Lista from "./components/01_ejercicios/lista map/Lista";
+// import Lista from "./components/01_ejercicios/lista map/Lista";
 // import EventoClick from "./components/03_eventos/EventoClick";
 // import Base from "./components/04_00_hooks_useState/AaBase";
 // import Aaaa from "./components/navbar/Aaa";
@@ -55,7 +55,7 @@ function App() {
             {/*<Pruebas/>*/}
             {/* seguir este ejercicio  <DataHeroes/>*/}
             {/*<ModalPrueba/>*/}
-            <EjercicioCounterApp value={10}/>    {/*Ejercicio*/}
+            <EjercicioCounterApp value={10} value1={103}/>    {/*Ejercicio*/}
             {/*<EventoClick/>*/}
             {/*<Base/>*/}
             {/*<Aaaa/>*/}
@@ -76,7 +76,7 @@ function App() {
             {/*<Correo/>*/}
             {/*<Autocomplete/>*/}
             {/*<SelectDemo/>*/}
-            <Lista/>
+            {/*<Lista/>*/}
         </div>
     );
 }
