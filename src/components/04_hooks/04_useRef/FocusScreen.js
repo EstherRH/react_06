@@ -6,7 +6,7 @@
 // sirve para mantener una referencia a una posición inicial
 
 import React, {useRef} from "react";
-import '../04_00_hooks_useState/style.css'
+import '../01_useState/style.css'
 
 const FocusScreen = () => {
 

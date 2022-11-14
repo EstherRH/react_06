@@ -1,7 +1,7 @@
 
 import logo from "./logo.svg";
 
-function Pruebas() {
+function Initial() {
     return (
         <div className="App">
             <header className="App-header">
@@ -21,4 +21,4 @@ function Pruebas() {
     );
 }
 
-export default Pruebas;
+export default Initial;

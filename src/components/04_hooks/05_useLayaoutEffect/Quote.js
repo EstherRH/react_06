@@ -2,9 +2,9 @@
 // useLayoutEffect (129)
 
 import React, {useLayoutEffect, useRef, useState} from "react";
-import '../04_00_hooks_useState/style.css'
-import {useCouter1} from "../../hooks";
-import {useFetch} from "../../hooks/useFetch";
+import '../01_useState/style.css'
+import {useCouter1} from "../../../hooks";
+import {useFetch} from "../../../hooks/useFetch";
 
 export const Quote = () => {
 

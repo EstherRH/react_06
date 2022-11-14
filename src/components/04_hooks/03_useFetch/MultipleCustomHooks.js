@@ -35,11 +35,11 @@
 // /api/quotes/2    /api/quotes/3   etc.
 
 import React from "react";
-import { useFetch1, useCouter1 } from "../../hooks"; // desde el index.js ( /hooks/index.js )
+import { useFetch1, useCouter1 } from "../../../hooks"; // desde el index.js ( /hooks/index.js )
 // import {useFetch} from "../../hooks/useFetch";
 // import {useFetch1} from "../../hooks/useFetch1";
 // import {useCouter1} from "../../hooks/useCouter1";
-import '../04_00_hooks_useState/style.css'
+import '../01_useState/style.css'
 
 // el componente tiene dos estados: cuando está cargando y cuando ya tiene la info
 

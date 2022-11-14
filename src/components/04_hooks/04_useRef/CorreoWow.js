@@ -4,9 +4,9 @@
 
 
 import React from "react";
-import '../04_00_hooks_useState/style.css'
+import '../01_useState/style.css'
 
-import logo from '../00_imgs/elfa.jpg';
+import logo from '../../00_imgs/elfa.jpg';
 
 const Correo = () => {
 

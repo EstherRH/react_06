@@ -17,6 +17,8 @@ const BbbCom = () => {
     const num = 123
     const num1 = "456"
     const verdad = true
+
+    // array
     const array = [1,2,3,4,5]   // concatenación de elementos
 
     // objeto

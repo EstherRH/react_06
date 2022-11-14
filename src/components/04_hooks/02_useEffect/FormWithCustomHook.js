@@ -7,8 +7,8 @@
 // más info: https://react-hook-form.com/get-started
 
 import React, {useEffect} from "react";
-import '../04_00_hooks_useState/style.css'
-import {useForm} from "../../hooks/useForm";
+import '../01_useState/style.css'
+import {useForm} from "../../../hooks/useForm";
 
 const FormWithCustomHook = () => {
 

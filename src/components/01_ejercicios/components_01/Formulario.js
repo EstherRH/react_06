@@ -71,7 +71,7 @@ const Formulario = (props) => {
             // arriba el useState inicializa en false
             // cambia el estado del state ( de false a true)
             // tmb tiene que mostrar el mensaje cuando sea true
-            return; // Resultado: 04_00_hooks_useState: state: true
+            return; // Resultado: 01_useState: state: true
         } else {
             console.log('ok');
             guardarError(false);

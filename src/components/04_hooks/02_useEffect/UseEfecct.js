@@ -15,7 +15,7 @@
 
 
 import React, {useEffect, useState} from "react";
-import '../04_00_hooks_useState/style.css';
+import '../01_useState/style.css';
 import {Message1} from "./UseEffectMessage2";
 // import Message from "./UseEffectMessage";
 // import {Message1} from "./UseEffectMessage2";

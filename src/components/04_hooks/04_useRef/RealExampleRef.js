@@ -15,8 +15,8 @@
 
 
 import React, { useState } from "react";
-import '../04_00_hooks_useState/style.css'
-import Quote from '../04_03_useLayaoutEffect/Quote';
+import '../01_useState/style.css'
+import Quote from '../05_useLayaoutEffect/Quote';
 
 const RealExampleRef = () => {
 

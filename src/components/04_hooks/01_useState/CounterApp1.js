@@ -4,7 +4,7 @@
 import React from "react";
 
 // importamos el custom hook: useCounter
-import { useCouter1 } from '../../hooks/useCouter1';
+import { useCouter1 } from '../../../hooks/useCouter1';
 
 const CounterApp1 = () => {
 

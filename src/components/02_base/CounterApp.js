@@ -36,6 +36,6 @@ EjercicioCounterApp.propTypes = {
 
 export default EjercicioCounterApp;
 
-// Continúa en el archivo: src/components/04_00_hooks_useState/CounterApp1.js y CounterApp2.js
+// Continúa en el archivo: src/components/01_useState/CounterApp1.js y CounterApp2.js
 
 
